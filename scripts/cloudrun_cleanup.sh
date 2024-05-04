@@ -4,7 +4,8 @@ service_exists=$(gcloud run services list --project="${GCP_PROJECT}" | grep "${C
 
 if [[ -n "$service_exists" ]]; then
     gcloud run services delete ${CLOUDRUN_SERVICE_NAME} \
-        --project=${GCP_PROJECT}
+        --project=${GCP_PROJECT} \
+        --quiet
 else
     echo "CloudRun ${CLOUDRUN_SERVICE_NAME} already deleted. Skipping deletion."
 fi
