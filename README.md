@@ -1,8 +1,8 @@
-# cloudrun-fastapi-container
+# cloudrun-bolt-container
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/Yoshida24/cloudrun-fastapi-container)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/Yoshida24/cloudrun-bolt-container)
 
-This is a demo application that runs FastAPI Server on CloudRun with a container service.
+This is a demo application that runs bolt Server on CloudRun with a container service.
 
 **included:**
 - Lint and Format
