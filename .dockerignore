@@ -1,0 +1,8 @@
+README
+Makefile
+Dockerfile
+.gitignore
+.env
+.env.sample
+.dockeringnore
+scripts/*
